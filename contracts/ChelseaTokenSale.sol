@@ -7,7 +7,7 @@ contract ChelseaTokenSale{
   ChelseaToken public tokenContract;
   uint256 public tokenPrice;
   uint256 public tokensSold;
-
+  
   event Sell(address _buyer, uint256 _amount);
 
   constructor(ChelseaToken _tokenContract, uint256 _tokenPrice) public {
